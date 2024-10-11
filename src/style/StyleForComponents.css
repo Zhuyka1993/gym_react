@@ -1,0 +1,324 @@
+html {
+    scroll-behavior: smooth;
+  }
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .logo a {
+    color: #82236f;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+
+.MainContent{
+    background-image: url('../../public/mainBG.jpg'); 
+    background-size: cover;
+    min-height: 100vh;
+
+}
+  
+  .section { 
+    padding-left: 5rem;
+  }
+
+  .section1 h1{ 
+    color: white;
+    font-size: 90px;
+        line-height: 94px;
+        letter-spacing: 4.5px;
+        padding-top: 200px;
+        margin-bottom: 39px;
+        max-width: 80%;
+        
+  }
+  
+  .first_red { 
+    font-size: 22px;
+        letter-spacing: 1.1px;
+        color: #82236f;
+        font-weight: bold;
+        
+  }
+
+  .second_red { 
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .links{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+  }
+
+  .links a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#82236f;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(130, 35, 111, 0.66);
+    z-index: 1;
+    font-size: large;
+    font-weight: bolder;
+    
+  }
+
+  .link-info { 
+   
+    display: inline-block;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .gym_link { 
+    background-image: url('../../public/bgGym.png');
+    background-repeat: no-repeat;  
+  }
+
+  .group_link { 
+    background-image: url('../../public/bgGroup.png');
+    background-repeat: no-repeat;  
+  }
+
+  .solari_link { 
+    background-image: url('../../public/bgSol.png');
+    background-repeat: no-repeat;
+  }
+
+  .massage_link { 
+    background-image: url('../../public/msg.jpg');
+    background-size: cover;
+  }
+
+  .cafe_link { 
+    background-image: url('../../public/cf.jpg');
+    background-size: cover;
+  }
+
+
+  .info-section { 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+  }
+
+  .pictureLeft img, .pictureRight img { 
+    width: 455px;
+    height: 300px;
+  }
+
+  .infoRight, .infoLeft { 
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .info-title{
+    font-size: 46px;
+        letter-spacing: 4.6px;
+        color: white;
+  }
+  .line { 
+    
+    display: block;
+    width: 50px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #82236f;  
+  }
+
+  .info-list {
+    
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-size: large;
+}
+
+.red { 
+    color: rgba(130, 35, 111, 0.66);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.info-section-right{ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(70, 69, 69);
+}
+
+h3 { 
+    font-size: 46px;
+    letter-spacing: 4.6px;
+    color: white;
+        margin:0;
+}
+.pictureSection { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(70, 69, 69);
+}
+.pictureSection h2 { 
+    font-size: 46px;
+    letter-spacing: 4.6px;
+    color: white;
+}
+
+.images-container img { 
+    max-width: 300px;
+
+}
+
+.price-section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+}
+.buttons { 
+    padding-top: 30px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    
+}
+
+.buttons button { 
+   background-color: grey ;
+    height: 35px;
+    border-radius: 20px;
+    border: #82236f solid 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons button:hover { 
+    background-color: #82236f;
+}
+
+.buttons .active {
+    background-color: #82236f;
+  }
+
+  .price-section .content { 
+    width: 100%;
+    
+  }
+
+  .price-section .content .info-section{
+    background-color: rgb(46, 45, 45);
+  }
+
+  .price-section .content .info-section .infoRight .info-list li{
+    display: flex; 
+    justify-content: space-between;
+  }
+  .button-container { 
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+
+  .button-container button { 
+    height: 40px;
+    border-radius: 10px;
+    border: #82236f 3px solid;
+    background-color: #333;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  .images-container img { 
+    height: 200px;
+    padding: 15px;
+    padding-top: 50px;
+    
+
+  }
+
+  footer { 
+    background-color: rgb(70, 69, 69);
+    height: 200px;
+  }
+  .social {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+  }
+
+  .social h3{
+    font-size: medium;
+  }
+
+  .nav-icons {
+    width: 200px;
+    margin: 0 auto;
+    
+  }
+
+  .nav-icons a { 
+    padding: 20px;
+  }
+  .phone {
+    display: block;
+    font-size: large;
+    color: white;
+    padding-top: 20px;
+  }
