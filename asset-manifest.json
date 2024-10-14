@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.797e042f.css",
-    "main.js": "/static/js/main.16789f0d.js",
-    "static/js/453.c3c1ea4e.chunk.js": "/static/js/453.c3c1ea4e.chunk.js",
-    "static/media/mainBG.jpg": "/static/media/mainBG.454a0a5ec637206f72a8.jpg",
-    "static/media/bgGym.png": "/static/media/bgGym.3a65937ffef909f7e62b.png",
-    "static/media/bgGroup.png": "/static/media/bgGroup.13c27d3d528443f13eab.png",
-    "static/media/bgSol.png": "/static/media/bgSol.5b58b6f92f0b871c18d0.png",
-    "static/media/cf.jpg": "/static/media/cf.ea7d1fdbb5eaa0b8cb26.jpg",
-    "static/media/msg.jpg": "/static/media/msg.9e5aaee84c60cafa0bc0.jpg",
-    "index.html": "/index.html",
-    "main.797e042f.css.map": "/static/css/main.797e042f.css.map",
-    "main.16789f0d.js.map": "/static/js/main.16789f0d.js.map",
-    "453.c3c1ea4e.chunk.js.map": "/static/js/453.c3c1ea4e.chunk.js.map"
+    "main.css": "/gym_react/static/css/main.b66da24d.css",
+    "main.js": "/gym_react/static/js/main.9420cfa7.js",
+    "static/js/453.c3c1ea4e.chunk.js": "/gym_react/static/js/453.c3c1ea4e.chunk.js",
+    "static/media/mainBG.jpg": "/gym_react/static/media/mainBG.454a0a5ec637206f72a8.jpg",
+    "static/media/bgGym.png": "/gym_react/static/media/bgGym.3a65937ffef909f7e62b.png",
+    "static/media/bgGroup.png": "/gym_react/static/media/bgGroup.13c27d3d528443f13eab.png",
+    "static/media/bgSol.png": "/gym_react/static/media/bgSol.5b58b6f92f0b871c18d0.png",
+    "static/media/cf.jpg": "/gym_react/static/media/cf.ea7d1fdbb5eaa0b8cb26.jpg",
+    "static/media/msg.jpg": "/gym_react/static/media/msg.9e5aaee84c60cafa0bc0.jpg",
+    "index.html": "/gym_react/index.html",
+    "main.b66da24d.css.map": "/gym_react/static/css/main.b66da24d.css.map",
+    "main.9420cfa7.js.map": "/gym_react/static/js/main.9420cfa7.js.map",
+    "453.c3c1ea4e.chunk.js.map": "/gym_react/static/js/453.c3c1ea4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.797e042f.css",
-    "static/js/main.16789f0d.js"
+    "static/css/main.b66da24d.css",
+    "static/js/main.9420cfa7.js"
   ]
 }
