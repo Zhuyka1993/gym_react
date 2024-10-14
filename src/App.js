@@ -38,7 +38,7 @@ function App() {
         id="gym"
         title="ТРЕНАЖЕРНИЙ ЗАЛ"
         items={infoGym}
-        imgSrc={`${process.env.PUBLIC_URL}/Gym.jpg`}
+        imgSrc={`${process.env.PUBLIC_URL}/gym.jpg`}
       />
 
       <Right_picture
