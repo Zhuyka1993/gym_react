@@ -38,28 +38,28 @@ function App() {
         id="gym"
         title="ТРЕНАЖЕРНИЙ ЗАЛ"
         items={infoGym}
-        imgSrc={"${process.env.PUBLIC_URL}/Gym.jpg"}
+        imgSrc={`${process.env.PUBLIC_URL}/Gym.jpg`}
       />
 
       <Right_picture
         id="group"
         title="ГРУПОВІ ЗАНЯТТЯ"
         items={group}
-        imgSrc={"${process.env.PUBLIC_URL}/bgGroup.png"}
+        imgSrc={`${process.env.PUBLIC_URL}/bgGroup.png`}
       />
 
       <Left_picture
         id="massage"
         title="МАСАЖ"
         items={massage}
-        imgSrc={"${process.env.PUBLIC_URL}/msg.jpg"}
+        imgSrc={`${process.env.PUBLIC_URL}/msg.jpg`}
       />
 
       <Right_picture
         id="sol"
         title="СОЛЯРІЙ"
         items={solarium}
-        imgSrc={"${process.env.PUBLIC_URL}/sol.jpg"}
+        imgSrc={`${process.env.PUBLIC_URL}/sol.jpg`}
       />
 
       <Left_picture id="cafe" title="КАФЕ" items={cafe} imgSrc="cf.jpg" />
