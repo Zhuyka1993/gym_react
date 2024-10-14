@@ -1,20 +1,24 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import '../style/StyleForComponents.css';
+import React from "react";
+import PropTypes from "prop-types";
+import "../style/StyleForComponents.css";
 
 const InfoSection = ({ imgSrc, title, items }) => {
   return (
-    <div className='info-section'>
-      <div className='pictureLeft'>
-        <img src={imgSrc} alt={title} className='info-image' />
+    <div className="info-section">
+      <div className="pictureLeft">
+        <img
+          src={`${process.env.PUBLIC_URL}/images/yourImage.png`}
+          alt={title}
+          className="info-image"
+        />
       </div>
-      <div className='infoRight'>
-        <h2 className='info-title'>{title}</h2>
-        <ul className='info-list'>
+      <div className="infoRight">
+        <h2 className="info-title">{title}</h2>
+        <ul className="info-list">
           {items.map((item, index) => (
             <li key={index}>
-              <span className='productName'>{item.productName}</span>
-              <span className='price'>{item.price}</span>
+              <span className="productName">{item.productName}</span>
+              <span className="price">{item.price}</span>
             </li>
           ))}
         </ul>
