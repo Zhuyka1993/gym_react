@@ -43,7 +43,7 @@ const sections = {
     ],
   },
   fitness: {
-    imgSrc: "${process.env.PUBLIC_URL}/bgGroup.png", // Замініть на відповідний шлях до зображення
+    imgSrc: "${process.env.PUBLIC_URL}/bgGroup.png",
     title: "Ціни",
     items: [
       { productName: "Абонемент 8 занять + тренажерний зал", price: "600 грн" },
@@ -60,7 +60,7 @@ const sections = {
     ],
   },
   solari: {
-    imgSrc: "${process.env.PUBLIC_URL}/sol.jpg", // Замініть на відповідний шлях до зображення
+    imgSrc: "${process.env.PUBLIC_URL}/sol.jpg",
     title: "Ціни",
     items: [
       { productName: "1 хвилина", price: "10 грн" },

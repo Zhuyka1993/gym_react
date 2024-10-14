@@ -7,7 +7,7 @@ const InfoSection = ({ imgSrc, title, items }) => {
     <div className="info-section">
       <div className="pictureLeft">
         <img
-          src={`${process.env.PUBLIC_URL}/images/yourImage.png`}
+          src={`${process.env.PUBLIC_URL}/images/sol.jpg`}
           alt={title}
           className="info-image"
         />
