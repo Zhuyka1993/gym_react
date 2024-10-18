@@ -46,7 +46,6 @@ header nav ul {
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
 }
 
 .navbar ul li a {
@@ -336,5 +335,28 @@ footer {
   .info-section,
   .info-section-right {
     flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .links a {
+    margin: 2px;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .container {
+    padding: 0;
+  }
+  .info-title {
+    font-size: 36px;
   }
 }
