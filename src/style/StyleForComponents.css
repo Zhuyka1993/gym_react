@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-.header {
+.menu {
   background-color: #333;
   color: white;
   padding: 1rem 0;
@@ -11,13 +11,13 @@ html {
   z-index: 1000;
 }
 
-header .logo {
+.menu .logo {
   width: 15%;
   float: left;
   font-size: 24px;
 }
 
-header nav {
+.menu nav {
   width: 85%;
   float: right;
 }
@@ -88,7 +88,6 @@ header nav ul {
 
 .second_red {
   color: white;
-  margin-bottom: 30px;
 }
 
 .links {
@@ -351,6 +350,12 @@ footer {
     margin: 2px;
     width: 12rem;
     height: 12rem;
+  }
+
+  .navbar ul li a {
+    color: #fff;
+    padding: 0.5rem 0.2rem;
+    text-decoration: none;
   }
 
   .container {

@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Menu from "./components/Menu";
 import MainContent from "./components/MainContent";
 import Link_section from "./components/Link_section";
 import Left_picture from "./components/Left_picture";
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Menu />
       <MainContent />
       <Link_section />
 
