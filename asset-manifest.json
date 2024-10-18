@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gym_react/static/css/main.0c8cc33b.css",
-    "main.js": "/gym_react/static/js/main.58c9ca47.js",
+    "main.js": "/gym_react/static/js/main.822672a6.js",
     "static/js/453.c3c1ea4e.chunk.js": "/gym_react/static/js/453.c3c1ea4e.chunk.js",
     "static/media/mainBG.jpg": "/gym_react/static/media/mainBG.454a0a5ec637206f72a8.jpg",
     "static/media/bgGym.png": "/gym_react/static/media/bgGym.3a65937ffef909f7e62b.png",
@@ -11,11 +11,11 @@
     "static/media/msg.jpg": "/gym_react/static/media/msg.9e5aaee84c60cafa0bc0.jpg",
     "index.html": "/gym_react/index.html",
     "main.0c8cc33b.css.map": "/gym_react/static/css/main.0c8cc33b.css.map",
-    "main.58c9ca47.js.map": "/gym_react/static/js/main.58c9ca47.js.map",
+    "main.822672a6.js.map": "/gym_react/static/js/main.822672a6.js.map",
     "453.c3c1ea4e.chunk.js.map": "/gym_react/static/js/453.c3c1ea4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c8cc33b.css",
-    "static/js/main.58c9ca47.js"
+    "static/js/main.822672a6.js"
   ]
 }
