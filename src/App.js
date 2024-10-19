@@ -32,6 +32,7 @@ function App() {
     <>
       <Menu />
       <MainContent />
+
       <Link_section />
 
       <Left_picture
