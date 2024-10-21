@@ -14,13 +14,12 @@ html {
 
 .menu .logo {
   width: 15%;
-  float: left;
+  padding-left: 5%;
   font-size: 24px;
 }
 
 .menu nav {
   width: 85%;
-  float: right;
 }
 
 header nav ul {
@@ -96,6 +95,7 @@ header nav ul {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .links a {
@@ -332,9 +332,20 @@ footer {
     width: 100%;
   }
 
+  .button-container {
+    flex-direction: column;
+  }
+
   .container nav {
     margin-right: 5%;
   }
+
+  .infoLeft,
+  .infoRight {
+    width: 70%;
+    align-items: center;
+  }
+
   .info-section,
   .info-section-right {
     flex-direction: column;
@@ -354,6 +365,9 @@ footer {
     flex-direction: column;
     margin: 0 auto;
   }
+  .links {
+    padding-bottom: 5%;
+  }
 
   .links a {
     margin: 2px;
@@ -372,5 +386,19 @@ footer {
   }
   .info-title {
     font-size: 36px;
+  }
+
+  .info-image {
+    width: 90%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .pictureLeft img,
+  .pictureRight img {
+    width: auto;
   }
 }

@@ -29,7 +29,7 @@ function App() {
   const imagesSet2 = ["/image4.png", "/image5.png", "/image6.png"];
 
   return (
-    <>
+    <div>
       <Menu />
       <MainContent />
 
@@ -70,7 +70,7 @@ function App() {
       <PriceSection />
 
       <Footer />
-    </>
+    </div>
   );
 }
 
